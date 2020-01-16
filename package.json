@@ -1,0 +1,43 @@
+{
+  "devDependencies": {
+    "cordova-plugin-battery-status": "^1.2.5",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-dialogs": "^1.3.4",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-globalization": "^1.0.9",
+    "cordova-plugin-inappbrowser": "^1.7.2",
+    "cordova-plugin-media-capture": "^1.4.3",
+    "cordova-plugin-network-information": "^1.3.4",
+    "cordova-plugin-vibration": "^2.1.6"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-globalization": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-vibration": {},
+      "cordova-sms-reader": {},
+      "cordova-plugin-datetimepicker": {},
+      "cordova-pdf-generator": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-pdf-generator": "^2.0.8",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-datetimepicker": "^1.1.2",
+    "cordova-sms-reader": "0.0.3"
+  }
+}
